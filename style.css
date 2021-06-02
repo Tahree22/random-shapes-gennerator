@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin-top: 70px;
+    background-image: linear-gradient(to bottom right, #5488e8, #4d7bd3, #5c94ff);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.container{
+    background: white;
+    height: 200px;
+    width: 400px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.enterNum input{
+    outline: none;
+    width: 100px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
