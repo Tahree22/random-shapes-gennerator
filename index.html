@@ -14,21 +14,23 @@
           <h2>Generate Random Shapes</h2>
         </div>
         <div class="enterNum">
+          <p>Quantity between (1 and <span id="total"></span>)</p>
           <input type="number" min="1" max="6" placeholder="No of shapes" id="newNumber"/>
         </div>
-        <button>GENERATE!</button>
+        <button id="generate-btn" >GENERATE!</button>
       </div>
       <div class="second-container">
         <div class="txtInputs">
-          <div class="input-text"><p id = "ptag"></p></div>
-          <div class="input-text"><p></p></div>
-          <div class="input-text"><p></p></div>
-          <div class="input-text"><p></p></div>
-          <div class="input-text"><p></p></div>
-          <div class="input-text"><p></p></div>
+            <ul id="shapesContainer">
+                <li class="shape-list">
+                  <img src="assets/img/rectangle.svg" alt="" />
+                  Rectangle
+                </li>
+            </ul>
         </div>
       </div>
     </div>
-    <script src="./main.js"></script>
+    <script type="text/javascript" src="./main.js">
+    </script>
   </body>
 </html>
